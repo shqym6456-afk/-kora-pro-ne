@@ -1,0 +1,21 @@
+{
+  "name": "kora-pro-live",
+  "version": "1.1.0",
+  "description": "كورة برو - نتائج ومعلومات كرة القدم المباشرة",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "MOCK=1 node server.js",
+    "cap:sync": "npx cap sync android"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}
